@@ -1,6 +1,5 @@
 '''
 The very simplified DES algorithm:
-The Code is written by Python3
 The 16 bit message is devided to 2, 8bit blocks, named L0 and R0.
 4 bits will be added to R0 by passing through the permut table. The result would be XORed by the 12 bits key.
 The result would be devided to 2, 6 bits. The 1st 2 bits of each block indicates the column of the SBoxes and 
