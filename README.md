@@ -1,4 +1,4 @@
-# des
+# Simplified DES Encryption and Decryption
 The very simplified DES algorithm:
 The 16 bit message is devided to 2, 8bit blocks, named L0 and R0.
 4 bits will be added to R0 by passing through the permut table. The result would be XORed by the 12 bits key.
